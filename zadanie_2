@@ -1,0 +1,9 @@
+a = int(input('Введите желаемую выручку \n'))
+b = float(input('Введите выручку за первый день \n'))
+loop_counter = 0
+while b <= a:
+    print(b)
+    c = b * 0.03
+    b = b + c
+    loop_counter += 1
+print(f"Придеться торговать {loop_counter+1} дней для достижения желаемой выручки ")
