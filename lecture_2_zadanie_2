@@ -1,0 +1,13 @@
+import numpy as np
+
+A = np.array([[22, 42], [83, 64]])
+B = np.array([[65, 36], [97, 78]])
+C = A + B
+print('A=')
+print(A)
+
+print('B=')
+print(B)
+
+print('C=')
+print(C)
