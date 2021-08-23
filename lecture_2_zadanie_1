@@ -1,0 +1,15 @@
+import random
+n=int(input('Введите длину списка:\n'))
+A=[]
+result=1
+for i in range(n):
+    a=random.randint(1,1000)
+    A.append(a) 
+    if i%2==1:
+        result*=A[i]
+print(A)
+print(result)
+m=max(A)
+print(m)
+A.remove(m)
+print(A)
